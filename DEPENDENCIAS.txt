@@ -1,37 +1,37 @@
-# =================================================================
-#            DEPENDENCIAS Y REPARACIÓN DEL SISTEMA
-# =================================================================
-# Este proyecto utiliza librerías nativas de Python (Standard Library).
-# No necesitas descargar paquetes externos con 'pip'.
-#
-# Si el programa NO abre, ejecuta estos comandos en tu terminal:
-# =================================================================
+=================================================================
+DEPENDENCIAS Y REPARACIÓN DEL SISTEMA
+=================================================================
+Este proyecto utiliza librerías nativas de Python (Standard Library).
+No necesitas descargar paquetes externos con 'pip'.
 
-# 1. COMPROBAR SI PYTHON ESTÁ BIEN INSTALADO:
-# Comando: python --version
-# (Si no responde, descarga Python de https://www.python.org)
+Si el programa NO abre, ejecuta estos comandos en tu terminal:
+=================================================================
 
-# 2. COMPROBAR SI TU PYTHON TIENE EL MOTOR GRÁFICO (TKINTER):
-# Comando: python -m tkinter
-# (Si no se abre una ventana, necesitas instalar/reparar Tkinter)
+1. COMPROBAR SI PYTHON ESTÁ BIEN INSTALADO:
+Comando: python --version
+(Si no responde, descarga Python de https://www.python.org)
 
-# 3. COMANDO DE INSTALACIÓN/REPARACIÓN PARA WINDOWS:
-# Si falta la interfaz gráfica, reinstala Python y asegúrate de 
-# marcar la casilla: "tcl/tk and IDLE".
+2. COMPROBAR SI TU PYTHON TIENE EL MOTOR GRÁFICO (TKINTER):
+Comando: python -m tkinter
+(Si no se abre una ventana, necesitas instalar/reparar Tkinter)
 
-# 4. COMANDO DE INSTALACIÓN PARA LINUX (Ubuntu/Debian):
-# sudo apt-get update
-# sudo apt-get install python3-tk
+3. COMANDO DE INSTALACIÓN/REPARACIÓN PARA WINDOWS:
+Si falta la interfaz gráfica, reinstala Python y asegúrate de 
+ marcar la casilla: "tcl/tk and IDLE".
 
-# 5. ACTUALIZAR EL GESTOR DE PAQUETES:
-# python -m pip install --upgrade pip
+4. COMANDO DE INSTALACIÓN PARA LINUX (Ubuntu/Debian):
+sudo apt-get update
+sudo apt-get install python3-tk
 
-# -----------------------------------------------------------------
-# LISTA TÉCNICA DE MÓDULOS UTILIZADOS EN 'scan.py':
-# -----------------------------------------------------------------
-# - tkinter (Interfaz Gráfica)
-# - socket (Conexiones de Red)
-# - threading (Multitarea)
-# - concurrent.futures (Gestión de Hilos de alta velocidad)
-# - os / re / time (Sistema y Procesamiento)
-# -----------------------------------------------------------------
+5. ACTUALIZAR EL GESTOR DE PAQUETES:
+python -m pip install --upgrade pip
+
+-----------------------------------------------------------------
+LISTA TÉCNICA DE MÓDULOS UTILIZADOS EN 'scan.py':
+-----------------------------------------------------------------
+- tkinter (Interfaz Gráfica)
+- socket (Conexiones de Red)
+- threading (Multitarea)
+- concurrent.futures (Gestión de Hilos de alta velocidad)
+- os / re / time (Sistema y Procesamiento)
+-----------------------------------------------------------------
